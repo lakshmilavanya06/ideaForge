@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IdeaForge - Collaborate and innovate with a community of creators">
+  <title>IdeaForge | Connect, Collaborate, Create</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div class="particles-container">
+    <div class="particles"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="top-bar">
+    <div class="logo-container">
+      <a href="dashboard.html">
+      <img src="images/logo.jpeg"  alt="IdeaForge Logo" class="logo">
+    </a>
+      <div class="header-content">
+        <h1>IdeaForge</h1>
+        <div class="tagline">Connect, Collaborate, Create</div>
+      </div>
+    </div>
+    
+    <div class="header-actions">
+      <button id="darkToggle" class="btn-icon" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button id="menuToggle" class="btn-icon mobile-only" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar" id="sidebar">
+    <a href="login.html" class="sidebar-link" style="text-decoration: none;">
+      <i class="fas fa-sign-in-alt"></i>
+      <span>Login</span>
+    </a>
+    <a href="idea.html" class="sidebar-link" style="text-decoration: none;">
+      <i class="fas fa-lightbulb"></i>
+      <span>Ideas</span>
+    </a>
+    <a href="message.html" class="sidebar-link"  style="text-decoration: none;">
+      <i class="fas fa-users"></i>
+      <span>Collaborate</span>
+    </a>
+    <a href="chatbot.html" class="sidebar-link" style="text-decoration: none;">
+      <i class="fas fa-robot"></i>
+      <span>AI Help</span>
+    </a>
+    <a href="#logout" class="sidebar-link">
+      <i class="fas fa-sign-out-alt"></i>
+      <span>Logout</span>
+    </a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Unleash Your Creativity with Like-minded Innovators</h2>
+        <p>IdeaForge is the perfect platform to share your ideas, collaborate with talented individuals, and bring your visions to life with the help of our AI assistant.</p>
+        <div class="hero-actions">
+          <a href="login.html" class="btn" style="text-decoration: none;">
+            <i class="fas fa-rocket"></i> Get Started
+          </a>
+          <a href="#features" class="btn btn-outline" style="text-decoration: none;">
+            <i class="fas fa-info-circle"></i> Learn More
+          </a>
+        </div>
+      </div>
+      <img src="images/image.jpeg" alt="Collaboration Illustration" class="hero-image">
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2 class="section-title">Why Choose IdeaForge?</h2>
+      <div class="features">
+        <div class="feature" id="ideas">
+          <div class="feature-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <a href="idea.html" style="text-decoration: none;">
+          <h3>Idea Sharing</h3>
+        </a>
+
+          <p>Share your innovative ideas with a community that appreciates creativity and provides constructive feedback.</p>
+        </div>
+        
+        <div class="feature" id="collaborate">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <a href="message.html" style="text-decoration: none;">
+          <h3>Collaboration</h3>
+        </a>
+          <p>Connect with other innovators, form teams, and work together to bring your ideas to life in real-time.</p>
+        </div>
+        
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <a href="chatbot.html" style="text-decoration: none;">
+          <h3>AI Assistance</h3>
+        </a>
+          <p>Our smart AI helps refine your ideas, suggest improvements, and even help with project planning.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="https://x.com" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" class="social-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="https://discord.com/" class="social-link"><i class="fab fa-discord"></i></a>
+      </div>
+      <p class="copyright">&copy; 2025 IdeaForge. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
